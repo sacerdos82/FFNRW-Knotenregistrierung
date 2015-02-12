@@ -1,0 +1,100 @@
+body {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+/* Header Nofication */
+
+#target-headerNotification {
+	background-color: #ee6ba9;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 15px;
+	background-color: #ee6ba9;
+	font-weight: 700;
+	text-align: center;
+	box-shadow: 0 2px 30px rgba(0, 0, 0, 0.75);
+	color: #272622;
+	z-index: 99999;
+	opacity: 0.95;
+
+}
+
+
+
+/* Window Lock */
+
+#windowLock {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #272622;
+	color: #FFFDF6;
+	z-index: 999999;
+	padding: 100px 50px 0 50px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	display: none;
+}
+
+
+
+/* Header */
+
+header {
+	background-color: #dc0068;
+	border-top: 10px solid #ffb400; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+#header-left h1 {
+	font-size: 16px;
+	line-height: 28px;
+	padding: 0;
+	margin: 0;
+}
+
+#header-right {
+	text-align: right;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#header-right a,
+#header-right a:visited {
+	font-size: 20px;
+	color: #fff;
+}
+
+#header-right a:hover,
+#header-right a:focus {
+	color: #009ee0;
+}
+
+
+
+/* Footer */
+
+footer {
+	clear: both;
+	background-color: #dc0068;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 9999;
+}
